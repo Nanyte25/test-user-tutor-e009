@@ -58,7 +58,7 @@ public class CamelRouter extends RouteBuilder {
             //
             // COMMENT OUT THIS
             //.to("direct:arrivalsImplLocal", "direct:departuresImplLocal");
-
+            // this is new
             //
             // UNCOMMENT THIS
             .to("direct:arrivalsImplRemote", "direct:departuresImplRemote");
